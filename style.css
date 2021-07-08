@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    background-image: url("assets/misc/transparent.png");
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Police/Oswald-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('Police/DroidSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('Police/DroidSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-image: url("assets/misc/grille.png");
+}
+
+header > nav > ul {
+    font-family: "Droid Sans", serif;
+}
+
+footer > nav {
+    width: 77%;
+    background-image: url("assets/misc/grille.png");
+    vertical-align: middle;
+    padding-left: 23%;
+}
+
+footer > nav > ul {
+    margin-top: 0.5%;
+    width: 13%;
+    margin-right: 2%;
+    font-family: "Droid Sans", sans-serif;
+}
+
+footer > nav > ul > img{
+    float: left;
+}
+
+footer > nav > ul > h3{
+    color: gray;
+}
+
+.reseaux {
+    margin-top: -5%;
+    margin-left: -23%;
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
+
+.reseaux > li{
+    display: inline-block;
+}
+
+.navFooter {
+    background-image: url("assets/misc/transparent.png");
+}
+
+.alignement {
+    text-decoration: none;
+    position: absolute;
+}
+
+.footer {
+    font-size: 15px;
+    width: 25%;
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+}
+
+.footer > li {
+    display: inline-block;
+}
+
+.route {
+    top: 1220px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.padding-right {
+    padding-right: 5px;
+}
+
+.gray {
+    color: gray;
+}
+
+.contact {
+    margin-top: 0px;
+}
+
+.dernierCommentaire {
+    margin-top: 30px;
+}
+
+.billet {
+    margin-top: 20px;
+}
+
+.blablaland {
+    margin-top: -60px;
+}
+
+nav > ul {
+    margin-top: -90px;
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: none;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li {
+    padding-bottom: 8px;
+}
+
+#logo {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.publication {
+    font-style: italic;
+    color: grey;
+}
+.petit {
+    font-size: 10px;
+    font-family: "Oswald", monospace;
+    color: gray;
+}
+
+#Golf {
+    border: 1px solid rgb(207, 203, 203);
+    width: 15%;
+    margin-left: 25%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Golf:hover {
+    background-color: aqua;
+}
+
+.titre {
+    margin-bottom: -5px;
+    font-family: "Oswald", serif;
+}
+
+.golf {
+    margin-left: 5%;
+    margin-right: 25%;
+}
+
+.orange {
+    color: orange;
+}
+
+.fondGrille {
+    font-style: italic;
+    font-family: "Droid Serif", sans-serif;
+    background-image: url("assets/misc/grille.png");
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.milieu {
+    margin-left: 35%;
+}
+
+.traits {
+    border-top: solid 1px rgb(221, 220, 220);
+}
+
+#youtube {
+    width: 35%;
+    height: 350px;
+    margin-left: 35%;
+}
+
+.couleurHotels {
+    border-top: solid 6px rgb(255, 102, 0);
+    padding-top: -10px;
+}
+
+.couleurRestaurants {
+    border-top: solid 6px yellow;
+    padding-top: -10px;
+}
+
+.couleurServices {
+    border-top: solid 6px rgb(54, 207, 16);
+    padding-top: -10px;
+}
+
+.couleurActivites {
+    border-top: solid 6px blue;
+    padding-top: -10px;
+}
+
+.accrobranche {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    margin-top: -6.5%;
+    margin-left: 1.5%; 
+}
+
+.branche {
+    margin-right: 25%;
+    font-size: 12px;
+}
+
+.fastFood {
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    margin-left: -15.5%;
+    width: 15%;
+}
+
+.fast {
+    margin-right: 30%;
+}
+
+.commentaires {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.texteCommentaires {
+    margin-right: 48%;
+}
+.LigneImage > li {
+    display: inline-block;
+    border: 1px solid rgb(206, 204, 204);
+    padding: 7px;
+    margin-right: 1%;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.LigneImage > li > img {
+    width: 100%;
+    margin-right: -25px;
+}
+
+.LigneImage {
+    margin-left: -6.5%;
+}
+
+.couleurPlus {
+    border-top: solid 6px rgb(199, 4, 199);
+    padding-top: -10px;
+}
+
+.section {
+    margin-bottom: -10px;
+}
